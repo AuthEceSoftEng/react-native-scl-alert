@@ -109,6 +109,8 @@ class SCLAlert extends React.Component {
         animationType="fade"
         visible={this.state.show}
         onRequestClose={this.handleOnClose}
+        hardwareAccelerated
+        supportedOrientations={["portrait"]}
       >
         <View style={styles.inner}>
           <TouchableWithoutFeedback onPress={this.handleOnClose}>
