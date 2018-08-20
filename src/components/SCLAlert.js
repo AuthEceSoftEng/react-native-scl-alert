@@ -159,7 +159,6 @@ const styles = StyleSheet.create({
     width: variables.contentWidth
   },
   bodyContainer: {
-    marginTop: variables.gutter,
     justifyContent: 'flex-end'
   }
 })
