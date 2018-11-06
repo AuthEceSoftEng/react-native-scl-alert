@@ -10,14 +10,14 @@ SCLAlertButton.propTypes = {
   textStyle: Text.propTypes.style,
   theme: themeType,
   onPress: PropTypes.func.isRequired,
-  disabled: PropTypes.bool,
+  disabled: PropTypes.bool
 }
 
 SCLAlertButton.defaultProps = {
   containerStyle: {},
   textStyle: {},
   theme: defaultThemeType,
-  disabled: false,
+  disabled: false
 }
 
 function SCLAlertButton(props) {
