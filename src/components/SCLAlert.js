@@ -8,7 +8,9 @@ import {
   StyleSheet,
   TouchableWithoutFeedback
 } from 'react-native'
-import { SCLAlertHeader, SCLAlertTitle, SCLAlertSubtitle } from '../components'
+import SCLAlertHeader from './SCLAlertHeader'
+import SCLAlertTitle from './SCLAlertTitle'
+import SCLAlertSubtitle from './SCLAlertSubtitle'
 import { height } from '../helpers/dimensions'
 import variables from './../config/variables'
 
