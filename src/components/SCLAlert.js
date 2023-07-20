@@ -83,7 +83,8 @@ class SCLAlert extends React.Component {
       const options = {
         toValue: this.state.show ? 0 : 1,
         duration: this.props.slideAnimationDuration,
-        animation: variables.translateEasing
+        animation: variables.translateEasing,
+        useNativeDriver: true
       }
 
       Animated.timing(this.slideAnimation, options).start(resolve)
