@@ -1,13 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {
-  Animated,
-  Modal,
-  View,
-  ViewPropTypes,
-  StyleSheet,
-  TouchableWithoutFeedback
-} from 'react-native'
+import { Animated, Modal, View, StyleSheet, TouchableWithoutFeedback } from 'react-native'
+import { ViewPropTypes } from 'deprecated-react-native-prop-types'
 import SCLAlertHeader from './SCLAlertHeader'
 import SCLAlertTitle from './SCLAlertTitle'
 import SCLAlertSubtitle from './SCLAlertSubtitle'
