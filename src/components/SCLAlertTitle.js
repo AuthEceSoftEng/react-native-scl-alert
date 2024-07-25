@@ -7,7 +7,6 @@ import { ViewPropTypes } from 'deprecated-react-native-prop-types'
 SCLAlertTitle.propTypes = {
   title: PropTypes.string.isRequired,
   titleContainerStyle: ViewPropTypes.style,
-  titleStyle: Text.propTypes.style
 }
 
 SCLAlertTitle.defaultProps = {
